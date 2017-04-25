@@ -1,0 +1,901 @@
+[{
+  "title": "Kadai Veg",
+  "price": "90.00",
+  "description": "Kadai Veg",
+  "type": "veg"
+}, {
+  "title": "Paneer Butter Masala",
+  "price": "114.00",
+  "description": "Paneer Butter Masala",
+  "type": "veg"
+}, {
+  "title": "Butter Chicken",
+  "price": "129.00",
+  "description": "Butter Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Kadai Chicken",
+  "price": "129.00",
+  "description": "Kadai Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Punjabi Chicken",
+  "price": "135.00",
+  "description": "Punjabi Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Butter Roti",
+  "price": "9.00",
+  "description": "Butter Roti",
+  "type": "veg"
+}, {
+  "title": "Rice Plain",
+  "price": "30.00",
+  "description": "Rice Plain",
+  "type": "veg"
+}, {
+  "title": "Veg Thali",
+  "price": "75.00",
+  "description": "Veg Thali",
+  "type": "veg"
+}, {
+  "title": "Egg Thali",
+  "price": "90.00",
+  "description": "Egg Thali",
+  "type": "nonveg"
+}, {
+  "title": "Non Veg Thali",
+  "price": "108.00",
+  "description": "Non Veg Thali",
+  "type": "nonveg"
+}, {
+  "title": "Rajma",
+  "price": "81.00",
+  "description": "Rajma",
+  "type": "veg"
+}, {
+  "title": "Channa Masala",
+  "price": "81.00",
+  "description": "Channa Masala",
+  "type": "veg"
+}, {
+  "title": "Channa Aloo",
+  "price": "81.00",
+  "description": "Channa Aloo",
+  "type": "veg"
+}, {
+  "title": "Channa Paneer",
+  "price": "99.00",
+  "description": "Channa Paneer",
+  "type": "veg"
+}, {
+  "title": "Mutter Aloo",
+  "price": "81.00",
+  "description": "Mutter Aloo",
+  "type": "veg"
+}, {
+  "title": "Mutter Tomato",
+  "price": "90.00",
+  "description": "Mutter Tomato",
+  "type": "veg"
+}, {
+  "title": "Mutter Masala",
+  "price": "90.00",
+  "description": "Mutter Masala",
+  "type": "veg"
+}, {
+  "title": "Mutter Mushroom",
+  "price": "99.00",
+  "description": "Mutter Mushroom",
+  "type": "veg"
+}, {
+  "title": "Mutter Paneer",
+  "price": "99.00",
+  "description": "Mutter Paneer",
+  "type": "veg"
+}, {
+  "title": "Tomato Chutney",
+  "price": "90.00",
+  "description": "Tomato Chutney",
+  "type": "veg"
+}, {
+  "title": "Tomato Curry",
+  "price": "90.00",
+  "description": "Tomato Curry",
+  "type": "veg"
+}, {
+  "title": "Stuffed Tomato",
+  "price": "99.00",
+  "description": "Stuffed Tomato",
+  "type": "veg"
+}, {
+  "title": "Palak Plain",
+  "price": "81.00",
+  "description": "Palak Plain",
+  "type": "veg"
+}, {
+  "title": "Palak Aloo",
+  "price": "90.00",
+  "description": "Palak Aloo",
+  "type": "veg"
+}, {
+  "title": "Palak Mutter",
+  "price": "99.00",
+  "description": "Palak Mutter",
+  "type": "veg"
+}, {
+  "title": "Palak Mushroom",
+  "price": "99.00",
+  "description": "Palak Mushroom",
+  "type": "veg"
+}, {
+  "title": "Palak Paneer",
+  "price": "105.00",
+  "description": "Palak Paneer",
+  "type": "veg"
+}, {
+  "title": "Mushroom Masala",
+  "price": "105.00",
+  "description": "Mushroom Masala",
+  "type": "veg"
+}, {
+  "title": "Kadai Mushroom",
+  "price": "105.00",
+  "description": "Kadai Mushroom",
+  "type": "veg"
+}, {
+  "title": "Babycorn Masala",
+  "price": "105.00",
+  "description": "Babycorn Masala",
+  "type": "veg"
+}, {
+  "title": "Kadai Babycorn",
+  "price": "105.00",
+  "description": "Kadai Babycorn",
+  "type": "veg"
+}, {
+  "title": "Bhindi Fry",
+  "price": "81.00",
+  "description": "Bhindi Fry",
+  "type": "veg"
+}, {
+  "title": "Bhindi Do Pyaza",
+  "price": "90.00",
+  "description": "Bhindi Do Pyaza",
+  "type": "veg"
+}, {
+  "title": "Baigan Bhartha",
+  "price": "81.00",
+  "description": "Baigan Bhartha",
+  "type": "veg"
+}, {
+  "title": "Zeera Aloo",
+  "price": "81.00",
+  "description": "Zeera Aloo",
+  "type": "veg"
+}, {
+  "title": "Aloo Kali Mirchi",
+  "price": "90.00",
+  "description": "Aloo Kali Mirchi",
+  "type": "veg"
+}, {
+  "title": "Aloo Masala",
+  "price": "81.00",
+  "description": "Aloo Masala",
+  "type": "veg"
+}, {
+  "title": "Aloo Tomato",
+  "price": "90.00",
+  "description": "Aloo Tomato",
+  "type": "veg"
+}, {
+  "title": "Aloo Mutter Tomato",
+  "price": "105.00",
+  "description": "Aloo Mutter Tomato",
+  "type": "veg"
+}, {
+  "title": "Aloo Paneer",
+  "price": "105.00",
+  "description": "Aloo Paneer",
+  "type": "veg"
+}, {
+  "title": "Dum Aloo",
+  "price": "99.00",
+  "description": "Dum Aloo",
+  "type": "veg"
+}, {
+  "title": "Ginger Aloo",
+  "price": "99.00",
+  "description": "Ginger Aloo",
+  "type": "veg"
+}, {
+  "title": "Ginger Gobi",
+  "price": "99.00",
+  "description": "Ginger Gobi",
+  "type": "veg"
+}, {
+  "title": "Ginger Mushroom",
+  "price": "105.00",
+  "description": "Ginger Mushroom",
+  "type": "veg"
+}, {
+  "title": "Ginger Baby Corn",
+  "price": "105.00",
+  "description": "Ginger Baby Corn",
+  "type": "veg"
+}, {
+  "title": "Stuffed Capsicum",
+  "price": "105.00",
+  "description": "Stuffed Capsicum",
+  "type": "veg"
+}, {
+  "title": "Kadai Veg",
+  "price": "90.00",
+  "description": "Kadai Veg",
+  "type": "veg"
+}, {
+  "title": "Veg Kofta",
+  "price": "105.00",
+  "description": "Veg Kofta",
+  "type": "veg"
+}, {
+  "title": "Chole Tikka Masala",
+  "price": "105.00",
+  "description": "Chole Tikka Masala",
+  "type": "veg"
+}, {
+  "title": "Harabhara Tikka Masala",
+  "price": "114.00",
+  "description": "Harabhara Tikka Masala",
+  "type": "veg"
+}, {
+  "title": "Kaju Curry",
+  "price": "114.00",
+  "description": "Kaju Curry",
+  "type": "veg"
+}, {
+  "title": "Kaju Tomato",
+  "price": "114.00",
+  "description": "Kaju Tomato",
+  "type": "veg"
+}, {
+  "title": "Malai Kofta",
+  "price": "114.00",
+  "description": "Malai Kofta",
+  "type": "veg"
+}, {
+  "title": "Navratan Korma",
+  "price": "114.00",
+  "description": "Navratan Korma",
+  "type": "veg"
+}, {
+  "title": "Dal Fry",
+  "price": "60.00",
+  "description": "Dal Fry",
+  "type": "veg"
+}, {
+  "title": "Dal Tadka",
+  "price": "69.00",
+  "description": "Dal Tadka",
+  "type": "veg"
+}, {
+  "title": "Dal Tadka with Butter",
+  "price": "81.00",
+  "description": "Dal Tadka with Butter",
+  "type": "veg"
+}, {
+  "title": "Dal Makhni",
+  "price": "69.00",
+  "description": "Dal Makhni",
+  "type": "veg"
+}, {
+  "title": "Dal Makhni Tadka",
+  "price": "81.00",
+  "description": "Dal Makhni Tadka",
+  "type": "veg"
+}, {
+  "title": "Dal Makhni with Butter",
+  "price": "90.00",
+  "description": "Dal Makhni with Butter",
+  "type": "veg"
+}, {
+  "title": "Dal Egg Tadka",
+  "price": "99.00",
+  "description": "Dal Egg Tadka",
+  "type": "nonveg"
+}, {
+  "title": "Dal Makhni Egg Tadka",
+  "price": "99.00",
+  "description": "Dal Makhni Egg Tadka",
+  "type": "nonveg"
+}, {
+  "title": "Paneer Bhurji",
+  "price": "114.00",
+  "description": "Paneer Bhurji",
+  "type": "veg"
+}, {
+  "title": "Paneer Butter Masala",
+  "price": "114.00",
+  "description": "Paneer Butter Masala",
+  "type": "veg"
+}, {
+  "title": "Shahi Paneer",
+  "price": "114.00",
+  "description": "Shahi Paneer",
+  "type": "veg"
+}, {
+  "title": "Paneer Makhanwala",
+  "price": "114.00",
+  "description": "Paneer Makhanwala",
+  "type": "veg"
+}, {
+  "title": "Paneer Kofta",
+  "price": "121.00",
+  "description": "Paneer Kofta",
+  "type": "veg"
+}, {
+  "title": "Paneer Tikka Masala",
+  "price": "121.00",
+  "description": "Paneer Tikka Masala",
+  "type": "veg"
+}, {
+  "title": "Ginger Paneer",
+  "price": "114.00",
+  "description": "Ginger Paneer",
+  "type": "veg"
+}, {
+  "title": "Kadai Paneer",
+  "price": "114.00",
+  "description": "Kadai Paneer",
+  "type": "veg"
+}, {
+  "title": "Kaju Paneer",
+  "price": "121.00",
+  "description": "Kaju Paneer",
+  "type": "veg"
+}, {
+  "title": "Malai Methi Paneer",
+  "price": "121.00",
+  "description": "Malai Methi Paneer",
+  "type": "veg"
+}, {
+  "title": "Chicken Curry",
+  "price": "105.00",
+  "description": "Chicken Curry",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Masala",
+  "price": "120.00",
+  "description": "Chicken Masala",
+  "type": "nonveg"
+}, {
+  "title": "Butter Chicken",
+  "price": "129.00",
+  "description": "Butter Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Ginger Chicken",
+  "price": "129.00",
+  "description": "Ginger Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Kadai Chicken",
+  "price": "129.00",
+  "description": "Kadai Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Palak Chicken",
+  "price": "129.00",
+  "description": "Palak Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Methi Chicken",
+  "price": "129.00",
+  "description": "Methi Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Tikka Masala",
+  "price": "129.00",
+  "description": "Chicken Tikka Masala",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Bhartha",
+  "price": "135.00",
+  "description": "Chicken Bhartha",
+  "type": "nonveg"
+}, {
+  "title": "Punjabi Chicken",
+  "price": "135.00",
+  "description": "Punjabi Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Liver Curry",
+  "price": "81.00",
+  "description": "Chicken Liver Curry",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Liver Masala",
+  "price": "90.00",
+  "description": "Chicken Liver Masala",
+  "type": "nonveg"
+}, {
+  "title": "Egg Boiled",
+  "price": "12.00",
+  "description": "Egg Boiled",
+  "type": "nonveg"
+}, {
+  "title": "Omelette",
+  "price": "33.00",
+  "description": "Omelette",
+  "type": "nonveg"
+}, {
+  "title": "Egg Bhurji",
+  "price": "45.00",
+  "description": "Egg Bhurji",
+  "type": "nonveg"
+}, {
+  "title": "Egg Curry",
+  "price": "69.00",
+  "description": "Egg Curry",
+  "type": "nonveg"
+}, {
+  "title": "Egg Aloo Curry",
+  "price": "81.00",
+  "description": "Egg Aloo Curry",
+  "type": "nonveg"
+}, {
+  "title": "Egg Masala Bolied Eggs",
+  "price": "81.00",
+  "description": "Egg Masala Bolied Eggs",
+  "type": "nonveg"
+}, {
+  "title": "Scrambled Egg Masala",
+  "price": "81.00",
+  "description": "Scrambled Egg Masala",
+  "type": "nonveg"
+}, {
+  "title": "Egg Mutter Masala",
+  "price": "90.00",
+  "description": "Egg Mutter Masala",
+  "type": "nonveg"
+}, {
+  "title": "Omelette Curry",
+  "price": "81.00",
+  "description": "Omelette Curry",
+  "type": "nonveg"
+}, {
+  "title": "Roti Phulka",
+  "price": "6.00",
+  "description": "Roti Phulka",
+  "type": "veg"
+}, {
+  "title": "Butter Roti",
+  "price": "9.00",
+  "description": "Butter Roti",
+  "type": "veg"
+}, {
+  "title": "Ghee Roti",
+  "price": "9.00",
+  "description": "Ghee Roti",
+  "type": "veg"
+}, {
+  "title": "Tawa Naan",
+  "price": "24.00",
+  "description": "Tawa Naan",
+  "type": "veg"
+}, {
+  "title": "Tawa Butter Naan",
+  "price": "27.00",
+  "description": "Tawa Butter Naan",
+  "type": "veg"
+}, {
+  "title": "Plain Paratha",
+  "price": "18.00",
+  "description": "Plain Paratha",
+  "type": "veg"
+}, {
+  "title": "Lachha Paratha",
+  "price": "21.00",
+  "description": "Lachha Paratha",
+  "type": "veg"
+}, {
+  "title": "Azwain Paratha",
+  "price": "24.00",
+  "description": "Azwain Paratha",
+  "type": "veg"
+}, {
+  "title": "Aloo Paratha",
+  "price": "30.00",
+  "description": "Aloo Paratha",
+  "type": "veg"
+}, {
+  "title": "Gobi Paratha",
+  "price": "30.00",
+  "description": "Gobi Paratha",
+  "type": "veg"
+}, {
+  "title": "Muli Paratha",
+  "price": "30.00",
+  "description": "Muli Paratha",
+  "type": "veg"
+}, {
+  "title": "Cabbage Paratha",
+  "price": "30.00",
+  "description": "Cabbage Paratha",
+  "type": "veg"
+}, {
+  "title": "Paneer Paratha",
+  "price": "42.00",
+  "description": "Paneer Paratha",
+  "type": "veg"
+}, {
+  "title": "Paneer Cheese Paratha",
+  "price": "60.00",
+  "description": "Paneer Cheese Paratha",
+  "type": "veg"
+}, {
+  "title": "Methi Paratha",
+  "price": "39.00",
+  "description": "Methi Paratha",
+  "type": "veg"
+}, {
+  "title": "Pudina Paratha",
+  "price": "39.00",
+  "description": "Pudina Paratha",
+  "type": "veg"
+}, {
+  "title": "Channa Dal Paratha",
+  "price": "39.00",
+  "description": "Channa Dal Paratha",
+  "type": "veg"
+}, {
+  "title": "Peas Paratha",
+  "price": "39.00",
+  "description": "Peas Paratha",
+  "type": "veg"
+}, {
+  "title": "Cheese Paratha",
+  "price": "54.00",
+  "description": "Cheese Paratha",
+  "type": "veg"
+}, {
+  "title": "Aloo Cheese Paratha",
+  "price": "57.00",
+  "description": "Aloo Cheese Paratha",
+  "type": "veg"
+}, {
+  "title": "Capsicum Cheese Paratha",
+  "price": "57.00",
+  "description": "Capsicum Cheese Paratha",
+  "type": "veg"
+}, {
+  "title": "Sweet Paratha",
+  "price": "39.00",
+  "description": "Sweet Paratha",
+  "type": "veg"
+}, {
+  "title": "Jaggery Paratha",
+  "price": "39.00",
+  "description": "Jaggery Paratha",
+  "type": "veg"
+}, {
+  "title": "Chocolate Paratha",
+  "price": "39.00",
+  "description": "Chocolate Paratha",
+  "type": "veg"
+}, {
+  "title": "Mix Paratha Without Paneer",
+  "price": "39.00",
+  "description": "Mix Paratha Without Paneer",
+  "type": "veg"
+}, {
+  "title": "Mix Paratha with Paneer",
+  "price": "45.00",
+  "description": "Mix Paratha with Paneer",
+  "type": "veg"
+}, {
+  "title": "Egg Paratha",
+  "price": "39.00",
+  "description": "Egg Paratha",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Paratha",
+  "price": "51.00",
+  "description": "Chicken Paratha",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Cheese Paratha",
+  "price": "60.00",
+  "description": "Chicken Cheese Paratha",
+  "type": "nonveg"
+}, {
+  "title": "Rice Plain",
+  "price": "30.00",
+  "description": "Rice Plain",
+  "type": "veg"
+}, {
+  "title": "Ghee Rice",
+  "price": "81.00",
+  "description": "Ghee Rice",
+  "type": "veg"
+}, {
+  "title": "Veg Fried Rice",
+  "price": "69.00",
+  "description": "Veg Fried Rice",
+  "type": "veg"
+}, {
+  "title": "Paneer Fried Rice",
+  "price": "90.00",
+  "description": "Paneer Fried Rice",
+  "type": "veg"
+}, {
+  "title": "Chilly Garlic Fried Rice",
+  "price": "84.00",
+  "description": "Chilly Garlic Fried Rice",
+  "type": "veg"
+}, {
+  "title": "Mushroom Fried Rice",
+  "price": "90.00",
+  "description": "Mushroom Fried Rice",
+  "type": "veg"
+}, {
+  "title": "Zeera Rice",
+  "price": "69.00",
+  "description": "Zeera Rice",
+  "type": "veg"
+}, {
+  "title": "Ghee Zeera Rice",
+  "price": "81.00",
+  "description": "Ghee Zeera Rice",
+  "type": "veg"
+}, {
+  "title": "Lemon Rice",
+  "price": "72.00",
+  "description": "Lemon Rice",
+  "type": "veg"
+}, {
+  "title": "Tomato Rice",
+  "price": "72.00",
+  "description": "Tomato Rice",
+  "type": "veg"
+}, {
+  "title": "Veg Pulao",
+  "price": "72.00",
+  "description": "Veg Pulao",
+  "type": "veg"
+}, {
+  "title": "Peas Pulao",
+  "price": "72.00",
+  "description": "Peas Pulao",
+  "type": "veg"
+}, {
+  "title": "Paneer Pulao",
+  "price": "90.00",
+  "description": "Paneer Pulao",
+  "type": "veg"
+}, {
+  "title": "Egg Fried Rice",
+  "price": "78.00",
+  "description": "Egg Fried Rice",
+  "type": "nonveg"
+}, {
+  "title": "Egg Pulao",
+  "price": "84.00",
+  "description": "Egg Pulao",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Fried Rice",
+  "price": "87.00",
+  "description": "Chicken Fried Rice",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Pulao",
+  "price": "96.00",
+  "description": "Chicken Pulao",
+  "type": "nonveg"
+}, {
+  "title": "Aloo 65",
+  "price": "90.00",
+  "description": "Aloo 65",
+  "type": "veg"
+}, {
+  "title": "Veg Manchuria",
+  "price": "90.00",
+  "description": "Veg Manchuria",
+  "type": "veg"
+}, {
+  "title": "Gobi 65",
+  "price": "90.00",
+  "description": "Gobi 65",
+  "type": "veg"
+}, {
+  "title": "Gobi Manchuria",
+  "price": "90.00",
+  "description": "Gobi Manchuria",
+  "type": "veg"
+}, {
+  "title": "Gobi Chilly",
+  "price": "90.00",
+  "description": "Gobi Chilly",
+  "type": "veg"
+}, {
+  "title": "Mushroom 65",
+  "price": "99.00",
+  "description": "Mushroom 65",
+  "type": "veg"
+}, {
+  "title": "Mushroom Manchuria",
+  "price": "99.00",
+  "description": "Mushroom Manchuria",
+  "type": "veg"
+}, {
+  "title": "Chilly Mushroom",
+  "price": "99.00",
+  "description": "Chilly Mushroom",
+  "type": "veg"
+}, {
+  "title": "Babycorn 65",
+  "price": "99.00",
+  "description": "Babycorn 65",
+  "type": "veg"
+}, {
+  "title": "Babycorn Manchuria",
+  "price": "99.00",
+  "description": "Babycorn Manchuria",
+  "type": "veg"
+}, {
+  "title": "Paneer 65",
+  "price": "105.00",
+  "description": "Paneer 65",
+  "type": "veg"
+}, {
+  "title": "Paneer Chilly",
+  "price": "105.00",
+  "description": "Paneer Chilly",
+  "type": "veg"
+}, {
+  "title": "Paneer Manchuria",
+  "price": "105.00",
+  "description": "Paneer Manchuria",
+  "type": "veg"
+}, {
+  "title": "Pepper Paneer",
+  "price": "114.00",
+  "description": "Pepper Paneer",
+  "type": "veg"
+}, {
+  "title": "Egg 65",
+  "price": "90.00",
+  "description": "Egg 65",
+  "type": "nonveg"
+}, {
+  "title": "Egg Chilli",
+  "price": "90.00",
+  "description": "Egg Chilli",
+  "type": "nonveg"
+}, {
+  "title": "Egg Manchuria",
+  "price": "90.00",
+  "description": "Egg Manchuria",
+  "type": "nonveg"
+}, {
+  "title": "Egg Roast",
+  "price": "90.00",
+  "description": "Egg Roast",
+  "type": "nonveg"
+}, {
+  "title": "Chicken 65",
+  "price": "99.00",
+  "description": "Chicken 65",
+  "type": "nonveg"
+}, {
+  "title": "Chilli Chicken",
+  "price": "99.00",
+  "description": "Chilli Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Chilli Chicken Gravy",
+  "price": "99.00",
+  "description": "Chilli Chicken Gravy",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Manchuria Gravy",
+  "price": "105.00",
+  "description": "Chicken Manchuria Gravy",
+  "type": "nonveg"
+}, {
+  "title": "Lemon Chicken",
+  "price": "108.00",
+  "description": "Lemon Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Roast",
+  "price": "108.00",
+  "description": "Chicken Roast",
+  "type": "nonveg"
+}, {
+  "title": "Pepper Chicken",
+  "price": "108.00",
+  "description": "Pepper Chicken",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Do Pyza",
+  "price": "105.00",
+  "description": "Chicken Do Pyza",
+  "type": "nonveg"
+}, {
+  "title": "Chicken Liver Fry",
+  "price": "75.00",
+  "description": "Chicken Liver Fry",
+  "type": "nonveg"
+}, {
+  "title": "Curd Plain",
+  "price": "30.00",
+  "description": "Curd Plain",
+  "type": "veg"
+}, {
+  "title": "Boondi Raita",
+  "price": "45.00",
+  "description": "Boondi Raita",
+  "type": "veg"
+}, {
+  "title": "Mix Raita",
+  "price": "45.00",
+  "description": "Mix Raita",
+  "type": "veg"
+}, {
+  "title": "Aloo Raita",
+  "price": "45.00",
+  "description": "Aloo Raita",
+  "type": "veg"
+}, {
+  "title": "Curd Rice",
+  "price": "51.00",
+  "description": "Curd Rice",
+  "type": "veg"
+}, {
+  "title": "Curd Tadka",
+  "price": "51.00",
+  "description": "Curd Tadka",
+  "type": "veg"
+}, {
+  "title": "Chole Bhature",
+  "price": "81.00",
+  "description": "Chole Bhature",
+  "type": "veg"
+}, {
+  "title": "Rose Shake",
+  "price": "36.00",
+  "description": "Rose Shake",
+  "type": "veg"
+}, {
+  "title": "Strawberry Shake",
+  "price": "36.00",
+  "description": "Strawberry Shake",
+  "type": "veg"
+}, {
+  "title": "Mango Shake",
+  "price": "36.00",
+  "description": "Mango Shake",
+  "type": "veg"
+}, {
+  "title": "Butter Scotch Shake",
+  "price": "36.00",
+  "description": "Butter Scotch Shake",
+  "type": "veg"
+}, {
+  "title": "Badam Shake",
+  "price": "48.00",
+  "description": "Badam Shake",
+  "type": "veg"
+}, {
+  "title": "Chocolate Shake",
+  "price": "48.00",
+  "description": "Chocolate Shake",
+  "type": "veg"
+}, {
+  "title": "Lassi",
+  "price": "36.00",
+  "description": "Lassi",
+  "type": "veg"
+}]
