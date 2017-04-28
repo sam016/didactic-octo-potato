@@ -17,7 +17,13 @@ export class RestService {
     menus: '/menu'
   }
 
-  constructor(private http: Http) { }
+  constructor(private http: Http) {
+    if (location.host.match('localhost(:\d+)?')) {
+      this.webServiceUrl = 'http://localhost:3000/api';
+    } else {
+      this.webServiceUrl = '/api';
+    }
+  }
 
   getOrders(): Promise<RestOrder[]> {
     return this.http.get(this.webServiceUrl + this.endpoints.orders)
