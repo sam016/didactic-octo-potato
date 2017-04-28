@@ -12,7 +12,6 @@
 
   <!--<link href="/assets/css/bootstrapcss.css" rel="stylesheet" />
   <link href="/assets/css/tillpos-style.css" rel="stylesheet" />-->
-  <link href="/assets/css/base.scss" rel="stylesheet" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -20,7 +19,31 @@
 </head>
 
 <body>
-  <app-root>Loading...</app-root>
+  <app-root>
+    <div class="loading">
+      Loading...
+      <style>
+        body {
+          overflow: hidden;
+        }
+
+        .loading {
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          background: linear-gradient(135deg, #2f3f7c 0%, #9c27b0 100%);
+          color: white;
+          text-align: center;
+          line-height: 100%;
+          font-size: 20px;
+          font-family: 'Roboto';
+          padding-top: 20%;
+        }
+      </style>
+    </div>
+  </app-root>
 </body>
 
 </html>
