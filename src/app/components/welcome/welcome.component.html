@@ -1,7 +1,5 @@
 <section>
 
-  {{summarySection|json}}
-
   <app-panel title="Quick Summary">
     <app-card *ngFor="let card of sections.summary.cards" [card]="card" fxFlex></app-card>
     <!--<app-card ngFor="let card in sections.summary.cards" [card]="card"></app-card>-->
