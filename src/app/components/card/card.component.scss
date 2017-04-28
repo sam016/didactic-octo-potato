@@ -1,0 +1,34 @@
+@import '../../app.config';
+:host {
+  border: 1px solid $border-color;
+  &+:host-context(.app-card) {
+    border-left: none;
+  }
+}
+
+div {
+  text-align: center;
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  &.card-header {
+    color: gray;
+    text-transform: uppercase;
+  }
+  &.card-body {
+    font-size: 21px;
+    color: $theme-color-darkblue;
+  }
+  &.card-footer {
+    margin-left: -7px;
+    &.data-positive {
+      color: forestgreen;
+    }
+    &.data-negative {
+      color: maroon;
+    }
+    >span {
+      vertical-align: 7px;
+    }
+  }
+}

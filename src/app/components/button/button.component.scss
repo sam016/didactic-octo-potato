@@ -1,0 +1,21 @@
+@import '../../app.config';
+:host {
+  max-height: 58px;
+  border: 1px solid #e5e5e5;
+  >button {
+    color: $theme-color-darkblue;
+    font-size: 14px;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background: white;
+    white-space: nowrap;
+    border: none;
+    width: 100%;
+    text-align: center;
+  }
+  &+:host-context(app-button) {
+    border-left: none;
+  }
+}

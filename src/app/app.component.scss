@@ -1,0 +1,44 @@
+@import 'app.config';
+:host {
+  >section {
+    & /deep/>router-outlet+* {
+      width: 100%; // position: absolute;
+      // left: ($sidebar-strip-width+$sidebar-strip2-width+10px);
+      // top: 0;
+      // right: 0;
+      // bottom: 0;
+      // overflow: auto;
+      // @media screen and (max-width: $screen-width-sm) {
+      //   left: 0;
+      //   top: ($toolbar-height+10px);
+      // }
+    }
+  }
+}
+
+.toolbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: $toolbar-height;
+  background-color: $theme-color-darkblue;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  line-height: $toolbar-height;
+  background: linear-gradient(135deg, #2f3f7c 0%, #9c27b0 100%);
+  z-index: 1;
+}
+
+// app-side-nav {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   min-width: $sidebar-strip-width;
+//   @media screen and (max-width: $screen-width-sm) {
+//     top: 0;
+//     display: none;
+//   }
+// }

@@ -47,5 +47,14 @@ menuitemSchema.pre('save', function (done) {
 var MenuItem = mongoose.model('MenuItem', menuitemSchema);
 
 MenuItem.PUBLIC_COLUMNS = "id title description price type created_on -_id";
+MenuItem.PROJECTION_ALIASES = {
+  "ID": "$id",
+  "Title": "$title",
+  "Description": "$description",
+  "Price": "$price",
+  "Type": "$type",
+  "Date": "$created_on",
+  "_id": 0
+};
 
 module.exports = MenuItem;

@@ -1,0 +1,58 @@
+@import '../../app.config';
+$fore-gray :rgb(128, 128, 128);
+app-panel {
+  display: block;
+  table {
+    width: 100%;
+  }
+  @media screen and (max-width: $screen-width-sm) {
+    left: 0;
+  }
+}
+
+md-progress-spinner {
+  zoom: 0.5;
+}
+
+@mixin cell_prop {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+  thead {
+    color: $theme-color-darkblue;
+  }
+  tr {
+    border: 1px solid $border-color;
+  }
+  th {
+    @include cell_prop;
+  }
+  td {
+    @include cell_prop;
+    color: $fore-gray;
+    >a {
+      color: $fore-gray
+    }
+  }
+}
+
+.mob {
+  >table {
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.3);
+    td {
+      width: 50%;
+      &:first-child {
+        text-align: right;
+        color: $theme-color-darkblue;
+        font-weight: bold;
+      }
+    }
+    &+table {
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,78 @@
+<section>
+
+  <app-panel>
+    <app-container fxLayout="row" fxLayout.xs="column">
+      <app-input fxFlex>
+        <input type="text" placeholder="Receipt ID" [(ngModel)]='filters.receiptId' />
+      </app-input>
+      <app-input title="Date From" fxFlex.md>
+        <input type="date" [(ngModel)]='filters.dateFrom' />
+      </app-input>
+      <app-input title="Date To" fxFlex.md>
+        <input type="date" [(ngModel)]='filters.dateTo' />
+      </app-input>
+    </app-container>
+    <app-container fxLayout="row">
+      <app-button (click)="resetFilters()" fxFlex>
+        Reset filters
+      </app-button>
+      <app-button routerLink="/order/new" fxFlex>
+        Order new
+      </app-button>
+    </app-container>
+  </app-panel>
+
+  <app-panel>
+    <section fxLayout="column" fxFlex>
+      <md-progress-spinner mode="indeterminate" [fxHide]="!isRefreshing"></md-progress-spinner>
+      <table class="datatable" fxShow.gt-xs fxHide>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Customer</th>
+            <th class="text-align-right"># of items ordered</th>
+            <th class="text-align-right">Amount</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orders | orderAllFilter:filters">
+            <td><a routerLink="/order/{{order.ID}}">{{order.ID|formatByType:'id'}}</a></td>
+            <td>Guest</td>
+            <td class="text-align-right">{{order.Items.length | formatByType:'count'}}</td>
+            <td class="text-align-right">{{order.Cost | formatByType:'money'}}</td>
+            <td>{{order.Date | date:'medium'}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="mob" fxHide.gt-xs>
+        <table *ngFor="let order of orders">
+          <tbody>
+            <tr>
+              <td>ID</td>
+              <td><a routerLink="/order/{{order.ID}}">{{order.ID|formatByType:'id'}}</a></td>
+            </tr>
+            <tr>
+              <td>Customer</td>
+              <td>Guest</td>
+            </tr>
+            <tr>
+              <td># of items ordered</td>
+              <td>{{order.Items.length | formatByType:'count'}}</td>
+            </tr>
+            <tr>
+              <td>Amount</td>
+              <td>{{order.Cost | formatByType:'money'}}</td>
+            </tr>
+            <tr>
+              <td>Date</td>
+              <td>{{order.Date | date:'medium'}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </app-panel>
+
+
+</section>

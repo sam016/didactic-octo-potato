@@ -1,0 +1,38 @@
+@import '../../app.config';
+:host {
+  >section {
+    height: 100%;
+  }
+}
+
+.sidebar-nav-1 {
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  // bottom: 0;
+  height: 100%;
+  width: $sidebar-strip-width;
+  background: $theme-color-darkblue;
+  color: white;
+  background: linear-gradient(135deg,#2f3f7c 0%,#9c27b0 100%);
+  md-icon {
+    font-size: 24px;
+    width: $sidebar-strip-width;
+    height: $sidebar-strip-width;
+    line-height: $sidebar-strip-width;
+    text-align: center;
+  }
+}
+
+.sidebar-nav-2 {
+  // position: absolute;
+  // left: $sidebar-strip-width;
+  // top: 0;
+  // bottom: 0;
+  height: 100%;
+  width: $sidebar-strip2-width;
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  border-width: 0 1px;
+  background: #EEE;
+  text-align: center;
+}

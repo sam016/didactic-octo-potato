@@ -1,0 +1,11 @@
+<div class="card-header">
+  {{card.title}}
+</div>
+<div class="card-body">
+  {{card.value | formatByType:card.type}}
+</div>
+<div class="card-footer {{'data-'+card.extra.dir}}">
+  <i class="material-icons" *ngIf="card.extra.dir=='positive'">arrow_drop_up</i>
+  <i class="material-icons" *ngIf="card.extra.dir=='negative'">arrow_drop_down</i>
+  <span>{{ card.extra.value| formatByType :'number'}}</span>
+</div>

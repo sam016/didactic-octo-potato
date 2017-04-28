@@ -1,0 +1,58 @@
+@import "sass-flex";
+
+/*
+    Flex
+*/
+
+*[flex-layout] {
+  display: flex;
+}
+
+*[flex] {
+  flex-grow: 1;
+}
+
+*[flex="column"] {
+  flex-direction: column;
+}
+
+*[flex-sm="column"] {
+  @media screen and (max-width: $screen-width-sm) {
+    flex-direction: column;
+  }
+}
+
+*[flex-md="column"] {
+  @media screen and (max-width: $screen-width-md) {
+    flex-direction: column;
+  }
+}
+
+*[flex-lg="column"] {
+  @media screen and (max-width: $screen-width-lg) {
+    flex-direction: column;
+  }
+}
+
+*[flex="row"] {
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+*[flex-sm="row"] {
+  @media screen and (max-width: $screen-width-sm) {
+    flex-direction: row;
+  }
+}
+
+*[flex-md="row"] {
+  @media screen and (max-width: $screen-width-md) {
+    flex-direction: row;
+  }
+}
+
+*[flex-lg="row"] {
+  @media screen and (max-width: $screen-width-lg) {
+    flex-direction: row;
+  }
+}

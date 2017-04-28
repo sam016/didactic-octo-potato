@@ -1,0 +1,18 @@
+<section>
+
+  {{summarySection|json}}
+
+  <app-panel title="Quick Summary">
+    <app-card *ngFor="let card of sections.summary.cards" [card]="card" fxFlex></app-card>
+    <!--<app-card ngFor="let card in sections.summary.cards" [card]="card"></app-card>-->
+  </app-panel>
+
+  <app-panel>
+    <app-button routerLink="/order">
+      View past orders
+    </app-button>
+    <app-button routerLink="/order/new">
+      Make a new order
+    </app-button>
+  </app-panel>
+</section>

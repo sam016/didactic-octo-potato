@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <th *ngFor="let header of headers">{{header.alias}}</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of data">
+      <td *ngFor="let header of headers">
+        {{row[header.key]}}
+      </td>
+      <!--{{data|json}}-->
+    </tr>
+  </tbody>
+</table>
+<footer>
+  Pagination
+</footer>

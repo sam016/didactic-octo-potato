@@ -84,8 +84,14 @@ function sendCollectionItem(req, res, model, filter, population) {
 
 function sendCollectionData(req, res, model, population) {
   model
-    .find({}, model.PUBLIC_COLUMNS)
-    .populate(population)
+    .aggregate(
+      [{
+        $project: model.PROJECTION_ALIASES
+        // ,
+        // $match: {}
+      }]
+    )
+    // .populate(population)
     .then((items) => {
       sendResult(req, res, items);
     })

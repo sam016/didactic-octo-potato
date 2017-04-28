@@ -17,8 +17,8 @@ const MenuItem = require('../models/menuitem');
 const OrderItem = require('../models/orderitem');
 const Order = require('../models/order');
 
-const MAX_ORDER_ITEMS = 100;
-const MAX_QUANTITY_OF_ORDER_ITEM = 5;
+const MAX_ORDER_ITEMS = 150;
+const MAX_QUANTITY_OF_ORDER_ITEM = 10;
 const MAX_ORDER_ITEMS_PER_ORDER = 20;
 
 /**
@@ -88,8 +88,13 @@ Order
     console.log(chalk.blue('\tPreparing orders....'));
     while (counterOrderItemsTaken < orderItems.length) {
       var countOrderItemsToTake = Math.min(randomInt(1, MAX_ORDER_ITEMS_PER_ORDER), MAX_ORDER_ITEMS - counterOrderItemsTaken);
+      var subOrderItems = orderItems.slice(counterOrderItemsTaken, counterOrderItemsTaken + countOrderItemsToTake);
+      // var cost = subOrderItems.reduce((a, b) => {
+      //   return (a.quantity * a.menuitem.price);
+      // });
       orders.push({
-        items: orderItems.slice(counterOrderItemsTaken, counterOrderItemsTaken + countOrderItemsToTake)
+        items: subOrderItems,
+        created_on: new Date(randomInt(Date.parse('2000-01-01'), new Date().getTime()))
       });
 
       counterOrderItemsTaken += countOrderItemsToTake;

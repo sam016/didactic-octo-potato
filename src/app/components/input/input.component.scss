@@ -1,0 +1,37 @@
+@import '../../app.config';
+:host {
+  position: relative;
+  border: 1px solid $border-color;
+  display: inline-block;
+}
+
+:host /deep/> {
+  header {
+    position: absolute;
+    font-size: 11px;
+    left: 20px;
+    top: 6px;
+    color: gray;
+  }
+  input {
+    font-size: 14px;
+    color: $theme-color-darkblue;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    &[type=text] {
+      padding: 20px;
+      min-width: 130px;
+    }
+    &[type=date] {
+      padding: 17.5px 20px;
+      width: 180px;
+    }
+  }
+}
+
+// :host-context(.input) {
+//   font-size: 14px;
+//   padding: 20px;
+//   color: $theme-color-darkblue;
+// }
