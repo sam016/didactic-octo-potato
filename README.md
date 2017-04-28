@@ -1,28 +1,31 @@
-# RestoPOS
+# Resto POS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.1.
+A SPA web application to manage the Restaurant's POS
 
-## Development server
+## WARNING
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Its a WORK IN PROGRESS.
 
-## Code scaffolding
+## How to run
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Firstly, start the API server    
+    
+    gulp serve:api
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+On success, you would see the following message:    
 
-## Running unit tests
+    [15:06:18] Starting 'serve:api'...
+    [15:06:18] Finished 'serve:api' after 253 ms
+    [15:06:18] [nodemon] 1.11.0
+    [15:06:18] [nodemon] to restart at any time, enter `rs`
+    [15:06:18] [nodemon] watching: <DIR>/RestoPOS/server/**/*
+    [15:06:18] [nodemon] starting `node server.js`
+    RestoPOS listening on port 3000
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Then, run
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+    ng serve
+for a dev server of Angular 2. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
