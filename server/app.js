@@ -1,7 +1,8 @@
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
-const mongoose = require('mongoose');
+const mongoose = require('./mongoose');
+const promise = require('promise');
 const bodyParser = require('body-parser');
 
 //  Getting API routes
@@ -27,7 +28,7 @@ function initializeExpressApp() {
 }
 
 function initializeRoutes() {
-  
+
   // CORS
   app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -52,6 +53,7 @@ function initializeRoutes() {
 };
 
 function initializeDB() {
+  mongoose.Promise = promise;
   mongoose.connect(process.env.MONGODB_URI);
 }
 

@@ -1,6 +1,6 @@
 "use strict";
 
-const mongoose = require('mongoose');
+const mongoose = require('../mongoose');
 const chalk = require('chalk');
 const promise = require('promise');
 const randomInt = require('random-int');
